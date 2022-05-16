@@ -1,0 +1,87 @@
+@media screen and (min-width: 1280px) {
+    .head {
+        font-size: 50px;
+        font-family: sans-serif;
+        font-weight: 700;
+        color: red;
+        text-shadow: 3px 3px 5px black, 0 0 0.5em black;
+        text-align: center;
+        letter-spacing: 30px;
+    }
+    .background_main {
+        margin: 0 auto;
+        height: 480px;
+        width: 1100px;
+        background-color: rgba(24, 22, 22, 0.877);
+    }
+    .screen {
+        position: relative;
+        border-radius: 20px;
+        margin: 0 auto;
+        height: auto;
+        width: 1000px;
+    }
+    .screen_picture {
+        height: 380px;
+        width: 1000px;
+        margin-top: 30px;
+        border-radius: 20px;
+        background-color: white;
+    }
+    .text_main {
+        width: auto;
+        height: 30px;
+    }
+    .phrase {
+        font-size: 17px;
+        font-family: system-ui;
+        color: white;
+    }
+    .menu {
+        position: absolute;
+        right: 30px;
+        bottom: 10px;
+        display: grid;
+        grid-template-columns: repeat(4, 30px);
+        width: 100px;
+    }
+    .button_ef {
+        border: 2px solid rgb(63, 63, 232);
+        background-color: rgb(63, 63, 232);
+        border-radius: 100px;
+        width: 15px;
+        height: 15px;
+    }
+    .button_ef:hover {
+        background-color: rgba(63, 63, 232, 0.245);
+    }
+    .contacts {
+        margin: 0 auto;
+        height: auto;
+        width: 1100px;
+    }
+    .discord {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .picture_footer {
+        margin: 1px;
+    }
+    .picture {
+        height: 70px;
+        width: 70px;
+    }
+    .text_footer {
+        height: auto;
+        width: 500px;
+    }
+    .text {
+        font-size: 25px;
+        font-style: italic;
+        font-family: system-ui;
+        color: rgb(181, 17, 17);
+        letter-spacing: 3px;
+    }
+    .icon_footer {}
+    .icon {}
+}
